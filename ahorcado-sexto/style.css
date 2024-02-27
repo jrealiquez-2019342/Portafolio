@@ -1,0 +1,42 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    height: 500px;
+    background-image: "./images/logoKinal.png";
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: 10rem;
+}
+
+section{
+    flex: 1; /* Cada sección tomará igual espacio horizontal */
+    max-width: 22%; /* Ancho máximo de cada sección */
+    /* Otras propiedades de estilo que desees agregar */
+}
+
+main{
+    /*60 px de arriba y 0 a los lados*/
+    padding-top: 180px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 20px;
+    /*Que lo centre todo*/
+    margin: auto;
+    /*Si algo se quiere salir del contenedor que lo esconda*/
+}
+
+#pie {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
